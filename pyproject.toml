@@ -29,6 +29,7 @@ pythonpath = [
 test = "pytest"
 ctest = "pytest --cov"
 stest = "pytest -s"
+giti = "pip install git+https://github.com/hun0219/args_history.git@0.2.0/arg"
 #venvoff = "deactivate"
 #venvon = "source .venv/bin/activate"
 
