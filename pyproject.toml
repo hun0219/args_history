@@ -20,6 +20,13 @@ test = [
     "pytest-cov>=5.0.0",
 ]
 
+[tool.pdm.scripts]
+test = "pytest"
+ctest = "pytest --cov"
+stest = "pytest -s"
+#venvoff = "deactivate"
+#venvon = "source .venv/bin/activate"
+
 [project.scripts]
 my-history = 'hun_args_history.cli:cmd'
 
